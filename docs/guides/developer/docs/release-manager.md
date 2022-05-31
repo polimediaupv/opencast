@@ -123,10 +123,13 @@ To: dev@opencast.org
 Subject: Release Branch for Opencast <version> Cut
 
 Hi everyone,
-the Opencast <version> release branch (r/<version>) has been
-cut.  Pull requests for bug fixes may still be made against
-this branch but, as usual, features should go into develop
-instead.
+the Opencast <version> release branch (r/<version>.x) has been
+cut.  Please check if pull requests point to the correct branch.
+
+For a guide on what you can still add to release branches, please refer to
+
+  https://docs.opencast.org/develop/developer/development-process/#acceptance-criteria-for-patches-in-different-versions
+
 
 Remember the release schedule for this release:
 
@@ -345,7 +348,7 @@ The following steps outline the necessary steps for cutting the final release:
 
         git push <remote> 6.0:6.0
 
-8 Check the “Create new release” GitHub Actions workflow.
+8. Check the “Create new release” GitHub Actions workflow.
    It will automatically build and upload the release tarballs and create a new release draft.
    Once it is finished, review the draft, adjust the description and publish the release.
 

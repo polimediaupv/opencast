@@ -7,7 +7,7 @@
   <parent>
     <groupId>org.opencastproject</groupId>
     <artifactId>base</artifactId>
-    <version>12-SNAPSHOT</version>
+    <version>13-SNAPSHOT</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
   <properties>
@@ -64,13 +64,13 @@
     <dependency>
       <groupId>org.postgresql</groupId>
       <artifactId>postgresql</artifactId>
-      <version>42.3.3</version>
+      <version>42.3.5</version>
     </dependency>
     <dependency>
       <!-- runtime dependency for postgresql -->
       <groupId>org.checkerframework</groupId>
       <artifactId>checker-qual</artifactId>
-      <version>3.21.3</version>
+      <version>3.22.0</version>
     </dependency>
     <dependency>
       <groupId>net.java.dev.jna</groupId>
